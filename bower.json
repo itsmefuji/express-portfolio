@@ -1,0 +1,23 @@
+{
+  "name": "comp2068-w2016-lab3",
+  "description": "comp2068 lab3 deployed to Azure",
+  "main": "",
+  "authors": [
+    "itsmefuji <yujif.gc@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/itsmefuji/comp2068-w2016-lab3",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0"
+  }
+}
