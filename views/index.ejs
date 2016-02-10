@@ -1,12 +1,14 @@
-<% include partials/header.ejs %> 
+<% include partials/header.ejs %>
 
     <main class="container">
-        <h1><%= title %></h1>
-        <p>Welcome to
-            <%= title %>
-        </p>
+        <div class="jumbotron">
+            <h1>Welcome!</h1>
+            <p>Yuji Fujiyama's Express Portfolio</p>
+            <p><a class="btn btn-primary" href="/about" role="button">Learn More About Me</a></p>
+        </div>
+
 
     </main>
 
-<!-- include partials allows you to link the footer/header to the main -->
-<% include partials/footer.ejs %> 
+    <!-- include partials allows you to link the footer/header to the main -->
+    <% include partials/footer.ejs %>
