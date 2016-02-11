@@ -1,11 +1,23 @@
+/*
+Name: Yuji Fujiyama-200300256
+Project: Express Porfolio Assignment
+Date: Feb. 10. 2016
+*/
+
 /* custom css file */ 
 
 
-body {background-color:lightgrey;
+body {
+    background-color:lightgrey;
 }
 
 main{
     border-style: double;
+}
+
+canvas {
+  width:100%;
+  height:100%;
 }
 
 /* Active link */
@@ -28,7 +40,7 @@ div.img img {
     width: 100%;
     height: auto;
 }
-
+/* TIME TELLING AT THE BOTTOM OF PAGE*/
 .timeActual{
     text-align: right; 
 }
