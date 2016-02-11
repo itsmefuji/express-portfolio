@@ -1,1 +1,34 @@
 /* custom css file */ 
+
+
+body {background-color:lightgrey;
+}
+
+main{
+    border-style: double;
+}
+
+/* Active link */
+ul li:active {
+    color: yellow;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+.timeActual{
+    text-align: right; 
+}
